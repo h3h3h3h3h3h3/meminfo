@@ -3,14 +3,9 @@ Description=Memory Information
 After=network.target
 
 [Service]
+Type=forking
 User=root
-Group=root
-
-StandardOutput=journal
-StandardError=journal
-
 ExecStart=/etc/meminfo/meminfo
-
 Restart=always
 
 [Install]

