@@ -1,0 +1,17 @@
+[Unit]
+Description=Memory Information
+After=network.target
+
+[Service]
+User=root
+Group=root
+
+StandardOutput=journal
+StandardError=journal
+
+ExecStart=/etc/meminfo/meminfo
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
